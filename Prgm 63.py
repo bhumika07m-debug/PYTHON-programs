@@ -1,0 +1,8 @@
+L0=() or tuple()
+L1=(1,2,3,4,5,6) or tuple (1,2,3,4,5,6)
+L2=("C programming","Java","Python") or tuple (("C programming","Java","Python"))
+L3=(123,"Python",3.7) or tuple ((123,"Python",3.7))
+print(L0)
+print(L1)
+print(L2)
+print(L3)

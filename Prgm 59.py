@@ -1,0 +1,10 @@
+lang=['java','c','python','cpp','sql','SQL']
+lang2=sorted(lang)
+print("The sorted list lang2 is:",lang2)
+print("The sorted list lang2 is:",sorted(lang))
+print("The original list lang is:",lang)
+print("The sort list lang returning None:",lang.sort())
+print("The sorted list lang2 in descending order using sorted is:",sorted(lang,reverse=True))
+print("The original updated sorted list using sort function is:",lang)
+lang.sort(reverse=True)
+print("The updated sorted list(descending order) using sort function is:",lang)
